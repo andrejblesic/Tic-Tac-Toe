@@ -1,0 +1,78 @@
+body {
+  background: rgb(235, 210, 185);
+}
+
+.kocka {
+  position: relative;
+  top: 10px;
+  padding: 4px;
+  border-radius: 15px;
+  width: 38%;
+  min-width: 350px;
+  margin: 0 auto;
+  background: rgb(120, 120, 120);
+}
+
+.malakocka {
+  width: 33.33%;
+  height: 33.33%;
+  border: solid rgb(120, 120, 120);
+  border-width: 4px;
+  background: rgb(150, 150, 150);
+  float: left;
+  border-radius: 15px;
+}
+
+img {
+  height: 95%;
+  padding: 5% 0 0 5%;
+}
+
+.dugme {
+  box-shadow: 3px 3px 2px grey;
+  border: 0;
+  margin: 3px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  background: rgb(200, 200, 130);
+  font-family: Arial !important;
+  outline: none;
+  font-weight: bold;
+}
+
+.dugmad {
+  width: 150px;
+  position: relative;
+  margin: 0 auto;
+  top: 15px;
+}
+
+.dugme:hover {
+  background: rgb(210, 210, 90);
+}
+
+.winwin {
+  display: none;
+  left: calc(50% - 150px);
+  min-width: 300px;
+  position: fixed;
+  width: 300px;
+  top: calc(50% - 174px);
+  text-align: center;
+  z-index: 1000;
+  font-family: Arial;
+  height: 150px;
+  background: rgb(255, 125, 0);
+  border-radius: 15px;
+  padding-top: 30px;
+  border-style: dashed;
+  border-width: 4px;
+  border-color: rgb(130, 130, 130);
+}
+
+.wintext {
+  font-weight: bolder;
+  font-size: 42px;
+}
